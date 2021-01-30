@@ -3,29 +3,26 @@
 body{
     background-image: url(https://images.squarespace-cdn.com/content/54b9401be4b095413a52aaa8/1546642488928-8EYOP2IIWDN5WMTZTPWX/bttf_regular.jpg?format=1500w&content-type=image%2Fjpeg);
     background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container{
-    display: inline-flex;;
+    display: inline-flex;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
-    margin-top: 15rem;
-    margin-left: 10rem;
+    padding: 20rem;
 }
 .allNumbers{
-    display: inline-flex;;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
     color: white;
     font-size: 10rem;
-    background-color:rgba(228, 115, 39, 0.5);
-    border: 5px double white;
+    background-color:rgba(255, 105, 5, 0.63);
+    border: 10px double white;
 }
 .clock{
-    border: 5px double white;
-    background-color:rgba(228, 115, 39, 0.5);
+    border: 10px double white;
+    background-color:rgba(255, 105, 5, 0.63);
 }
-.theCard{
-    background-color: black;
-}
+

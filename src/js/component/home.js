@@ -1,8 +1,7 @@
 import React, { Fragment } from "react";
 import { Counter } from "./counter.jsx";
 import PropTypes from "prop-types";
-import passageoftime from "../../img/passageoftime.png";
-import { Buttons } from "./buttons.jsx";
+import backintime from "../../img/backintime.png";
 
 //create your first component
 export function Home() {
@@ -17,15 +16,12 @@ export function Home() {
 				<Counter increment={100000} />
 				<img
 					className="clock"
-					src="passageoftime.png"
+					src="backintime.png"
 					alt="Clock"
 					width="250"
-					height="250"
+					height="260"
 				/>
 			</div>
-			{/* <div className="App">
-				<Buttons />
-			</div> */}
 		</Fragment>
 	);
 }
