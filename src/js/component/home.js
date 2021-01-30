@@ -1,24 +1,31 @@
-import React from "react";
-
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+import React, { Fragment } from "react";
+import { Counter } from "./counter.jsx";
+import PropTypes from "prop-types";
+import passageoftime from "../../img/passageoftime.png";
+import { Buttons } from "./buttons.jsx";
 
 //create your first component
 export function Home() {
 	return (
-		<div className="text-center mt-5">
-			<h1>Hello Rigo!</h1>
-			<p>
-				<img src={rigoImage} />
-			</p>
-			<a href="#" className="btn btn-success">
-				If you see this green button... bootstrap is working
-			</a>
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
-		</div>
+		<Fragment>
+			<div className="container">
+				<Counter increment={1} />
+				<Counter increment={10} />
+				<Counter increment={100} />
+				<Counter increment={1000} />
+				<Counter increment={10000} />
+				<Counter increment={100000} />
+				<img
+					className="clock"
+					src="passageoftime.png"
+					alt="Clock"
+					width="250"
+					height="250"
+				/>
+			</div>
+			{/* <div className="App">
+				<Buttons />
+			</div> */}
+		</Fragment>
 	);
 }
