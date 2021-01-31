@@ -1,6 +1,10 @@
 # Simple Counter With React ⏲️
   Counting to go back to the future!
 
+
+
+
+
 ##### Download the boilerplate using git
 
 ```
